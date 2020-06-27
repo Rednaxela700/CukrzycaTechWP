@@ -1,0 +1,21 @@
+@include rwd(desktop)
+    .partners
+        margin: 0 0 139px
+        & h2
+            margin: 108px 0 92px
+
+        &__wrapper
+            max-width: 840px
+            margin: 0 auto
+
+        &__subtitle
+            @include fonts(Rubik, normal, normal, 16px, 24px)
+            display: block
+            text-align: center
+            text-transform: capitalize
+            margin:  0 0 24px
+
+
+        &__container
+            @include flex()
+            flex-wrap: wrap

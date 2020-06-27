@@ -1,0 +1,57 @@
+@include rwd(desktop)
+    .contact
+        min-width: 553px
+        @include pos(relative)
+        z-index: 0
+
+        & h2
+            margin: 0 auto
+            padding: 88px 0 50px
+            color: #fff
+
+        &__wrapper
+            padding: 0 0 103px
+
+        &__container
+            @include flex(center, center, column)
+
+        &__text
+            @include fonts(Rubik, normal, normal, 16px, 28px)
+            max-width: 849px
+            text-align: center
+            color: #B7CBE7
+
+        &__btn
+            @include size(192px, 56px)
+            color: $agenda_bg
+            background-color: #fff
+            border: none
+            margin: 64px 0 0
+
+        &__ellipses
+            @include pos(absolute, 0, 0)
+            @include size(100%, 100%)
+            @include flex(space-between)
+            background-color: $agenda_bg
+            z-index: -2
+
+        &__bg
+            @include pos(absolute, 0, 0)
+            @include size(100%, 100%)
+            background-image: url("https://via.placeholder.com/1920")
+            background-repeat: no-repeat
+            background-size: cover
+            //background-position: 0 -400px
+            opacity: 32%
+            z-index: -1
+            &.visible
+                background-image: url("../img/contact_bg.jpg")
+
+        &__ellipse
+            margin: 50px
+
+            &--sm
+                align-self: flex-end
+
+            &--md
+                align-self: flex-start

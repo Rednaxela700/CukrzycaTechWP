@@ -1,0 +1,70 @@
+@include rwd(desktop)
+    .agenda
+        margin: 0 auto 177px
+
+        &__container
+            max-width: 1128px
+            margin: 0 auto
+
+            &:first-child > .timetable__container
+                border-radius: .5em
+
+
+        &__item
+            width: 100%
+
+            &:first-of-type .timetable__container
+                border-top-left-radius: .5em
+                border-top-right-radius: .5em
+
+            &:last-of-type .timetable__container
+                border-bottom-left-radius: .5em
+                border-bottom-right-radius: .5em
+
+            &--active
+                @include pos(relative)
+                background-color: #F2F6FC
+                &::before
+                    content: ''
+                    @include pos(absolute, 0, 1px)
+                    display: block
+                    @include size(5px, 100%)
+                    background-color: #B7CBE7
+
+    .timetable
+        &__container
+            @include flex(normal, center)
+            @include size(auto, 95px)
+            max-width: 840px
+            background-color: $agenda_bg
+            border-bottom: 1px solid $circle_light-blue
+            margin: 0 auto
+
+
+        &__icon
+            @include flex(center, center)
+            @include size(120px, 95px)
+
+        &__img
+            &--active
+                @include size(56px, 56px)
+
+        &__item
+            @include size(auto, auto)
+            color: #fff
+
+        &__hour
+            @include fonts(Rubik, normal, normal, 16px, 19px)
+            color: #b7cbe7
+
+        &__title
+            @include fonts(Rubik, normal, normal, 18px, 22px)
+            margin: 3px 0 4px
+
+        &__subtitle
+            @include fonts(Rubik, normal, normal, 14px, 17px)
+
+            & a
+                color: $text_black
+                text-decoration: none
+

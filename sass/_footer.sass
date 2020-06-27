@@ -1,0 +1,17 @@
+@include rwd(desktop)
+    .footer
+        max-width: 1920px
+        margin: 0 auto
+        background-color: $nav_dark-blue
+        &__container
+            @include flex(space-around)
+        &__item
+            @include flex(center, center)
+            color: #fff
+    .social
+        &__container
+            @include flex()
+            margin: 0 0 0 24px
+
+        &__item
+            margin: 0 8px

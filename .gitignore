@@ -1,0 +1,11 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Useful .gitignore templates: https://github.com/github/gitignore
+.idea
+.DS_Store
+.env
+node_modules
+Cukrzyca_tech_v1.xd
+doc
+Rubik
+Rubik.zip

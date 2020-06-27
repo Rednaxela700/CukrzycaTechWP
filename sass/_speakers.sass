@@ -1,0 +1,49 @@
+@include rwd(desktop)
+    .speakers
+        max-width: 1664px
+        margin: 0 auto 49px
+        & .section__title
+            margin: 123px 0 76px
+
+        &__container
+            @include flex(center)
+            flex-wrap: wrap
+            padding: 0 124px
+            background: url("../img/speakers_bg.svg") no-repeat center
+            background-position-y: 130px
+            background-size: contain
+
+        &__item
+            margin: 0 10px 74px
+            //flex-basis: 10%
+            min-height: 356px
+            text-align: center
+            &:first-child
+                margin-left: 0
+
+            &:last-child
+                margin-right: 0
+
+    .speaker
+        &__popup
+            @include pos(relative)
+
+        &__btn
+            @include pos(absolute, calc(50% - 36px), calc(50% - 36px))
+            @include size(72px, 72px)
+            display: none
+            border-radius: 50%
+            border: none
+            font-size: 36px
+            background-color: $btnActive_red
+            color: #fff
+
+        &__name
+            @include fonts(Rubik, normal, normal, 24px, 28px)
+            text-transform: capitalize
+
+        &__company
+            @include fonts(Rubik, normal, normal, 16px, 24px)
+            color: #707070
+
+

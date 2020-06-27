@@ -1,0 +1,29 @@
+body
+    font-family: Rubik, sans-serif
+.btn
+    @include fonts('Rubik', normal, normal, 1rem, 19px)
+    @include flex(center, center)
+    @include size(auto, 56px)
+    background-color: $btnInactive_red
+    border-radius: .5em
+    color: #fff
+    cursor: pointer
+    text-decoration: none
+    &:hover
+        background-color: $btnActive_red
+        transition: background-color .3s ease-in-out
+
+    &__blue
+        @include fonts('Rubik', normal, normal, 1rem, 19px)
+        @include flex(center, center)
+        @include size(auto, 56px)
+        background-color: $section_bg
+        border-radius: .5em
+        border: none
+        color: $agenda_bg
+        cursor: pointer
+
+.section__title
+    @include fonts(Rubik, normal, bold, 48px, 57px)
+    color: $heading_dark-blue
+    text-align: center

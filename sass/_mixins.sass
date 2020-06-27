@@ -1,0 +1,53 @@
+@mixin flex($justify: normal, $align: normal, $col:row)
+    display: flex
+    justify-content: $justify
+    align-items: $align
+    flex-direction: $col
+
+@mixin pos($pos: static, $top: unset, $left: unset)
+    position: $pos
+    top: $top
+    left: $left
+
+@mixin posBR($bot: unset, $right: unset)
+    bottom: $bot
+    right: $right
+
+@mixin fonts($family: Rubik, $style: normal, $weight: normal, $size: 16px, $lineHeight: normal)
+    font-family: $family
+    font-style: $style
+    font-weight: $weight
+    @include fontSize($size)
+    @include lineHeight($lineHeight)
+
+@mixin fontSize($size)
+    @include rwd(mobile)
+        font-size: $size * .8 !important
+    @include rwd(tablet)
+        font-size: $size * .8 !important
+    @include rwd(desktop)
+        font-size: $size !important
+
+@mixin lineHeight($height)
+    @include rwd(mobile)
+        line-height: $height * .8 !important
+    @include rwd(tablet)
+        line-height: $height * .8 !important
+    @include rwd(desktop)
+    @media all and (min-width: 992px)
+        line-height: $height !important
+
+@mixin size($width: auto, $height: auto)
+    width: $width
+    height: $height
+
+@mixin rwd($device)
+    @if (map_has_key($breakpoints, $device))
+        @media only screen and (min-width: map_get($breakpoints, $device))
+            @content
+    @else
+        @warn "no value retrieved from `#{$breakpoint}`, available values are: #{map_keys($breakpoints)}."
+
+
+
+

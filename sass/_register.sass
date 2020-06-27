@@ -1,0 +1,62 @@
+@include rwd(desktop)
+    .register
+        background-color: $section_bg
+        padding: 0 0 132px
+        & h2
+            padding: 108px 0 99px
+        &__container
+            max-width: 1416px
+            @include flex(center)
+            margin: 0 auto
+
+        &__item
+            @include flex(space-between, normal, column)
+            @include size(456px, 600px)
+            background-color: #fff
+
+            &:nth-of-type(2)
+                margin: 0 24px
+
+
+        &__btn
+            margin: 0 auto 64px
+            @include size(206px, 56px)
+
+    .ticket
+        &__container
+            @include flex(center, center, column)
+            margin: 48px 0 39px
+
+
+
+        &__header
+            @include size(100%)
+            text-align: center
+            border-bottom: 1px solid $section_bg
+        &__subtitle
+            @include fonts(Rubik, normal, normal, 14px, 17px)
+            text-transform: uppercase
+            color: $text_black
+            opacity: 64%
+
+        &__title
+            @include fonts(Rubik, normal, bold, 32px, 38px)
+            margin: 16px 0 6px
+            color: $text_black
+
+        &__price
+            @include fonts(Rubik, normal, bold, 48px, 57px)
+            color: $price_green
+            margin: 0 0 38px
+
+        &__advantages
+            margin: 59px 0 0
+            list-style-type: none
+            padding: 0
+
+            & li
+                @include fonts(Rubik, normal, normal, 16px, 32px)
+                &::before
+                    content: url("../img/check.svg")
+                    margin: 0 12px 0 0
+

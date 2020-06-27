@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4172b8;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="fb" transform="translate(-469 -7296)">
+    <rect id="Rectangle_45" data-name="Rectangle 45" class="cls-1" width="32" height="32" rx="3" transform="translate(469 7296)"/>
+    <g id="facebook-app-symbol" transform="translate(444.71 7306)">
+      <path id="f_1_" class="cls-2" d="M41.335,12V6.527h1.836l.276-2.134H41.335V3.031c0-.618.171-1.038,1.057-1.038h1.129V.084A15.308,15.308,0,0,0,41.876,0a2.57,2.57,0,0,0-2.744,2.82V4.393H37.29V6.527h1.842V12Z"/>
+    </g>
+  </g>
+</svg>
