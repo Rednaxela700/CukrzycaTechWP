@@ -1,4 +1,4 @@
-@include rwd(desktop)
+@include rwd(tablet)
     .contact
         min-width: 553px
         @include pos(relative)
@@ -27,6 +27,7 @@
             background-color: #fff
             border: none
             margin: 64px 0 0
+            min-width: 192px
 
         &__ellipses
             @include pos(absolute, 0, 0)
@@ -41,7 +42,7 @@
             background-image: url("https://via.placeholder.com/1920")
             background-repeat: no-repeat
             background-size: cover
-            //background-position: 0 -400px
+            background-position: initial !important
             opacity: 32%
             z-index: -1
             &.visible
