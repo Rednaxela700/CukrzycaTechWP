@@ -1,4 +1,4 @@
-@include rwd(desktop)
+@include rwd(tablet)
     .register
         background-color: $section_bg
         padding: 0 0 132px
@@ -7,11 +7,12 @@
         &__container
             max-width: 1416px
             @include flex(center)
+            flex-wrap: wrap
             margin: 0 auto
 
         &__item
             @include flex(space-between, normal, column)
-            @include size(456px, 600px)
+            @include size(300px, 600px)
             background-color: #fff
 
             &:nth-of-type(2)
@@ -21,6 +22,7 @@
         &__btn
             margin: 0 auto 64px
             @include size(206px, 56px)
+            min-width: 206px
 
     .ticket
         &__container
@@ -60,3 +62,7 @@
                     content: url("../img/check.svg")
                     margin: 0 12px 0 0
 
+@include rwd(dfhd)
+    .register
+        &__item
+            width: 456px
