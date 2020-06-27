@@ -1,7 +1,7 @@
 @include rwd(tablet)
     .register
         background-color: $section_bg
-        padding: 0 0 132px
+        padding: 0
         & h2
             padding: 108px 0 99px
         &__container
@@ -62,7 +62,9 @@
                 &::before
                     content: url("../img/check.svg")
                     margin: 0 12px 0 0
-
+@include rwd(desktop)
+    .register
+        padding: 0 0 132px
 @include rwd(dfhd)
     .register
         &__item
