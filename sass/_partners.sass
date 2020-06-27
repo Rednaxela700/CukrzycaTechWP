@@ -1,6 +1,7 @@
-@include rwd(desktop)
+@include rwd(tablet)
     .partners
         margin: 0 0 139px
+
         & h2
             margin: 108px 0 92px
 
@@ -13,9 +14,14 @@
             display: block
             text-align: center
             text-transform: capitalize
-            margin:  0 0 24px
+            margin: 0 0 24px
 
 
         &__container
-            @include flex()
+            @include flex(center)
             flex-wrap: wrap
+
+@include rwd(desktop)
+    .partners
+        &__container
+            justify-content: normal
