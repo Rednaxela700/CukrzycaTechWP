@@ -774,9 +774,9 @@
     padding: 0 124px;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .agenda {
-    margin: 0 auto 177px;
+    margin: 0 auto 70px;
   }
   .agenda__container {
     max-width: 1128px;
@@ -832,6 +832,7 @@
     flex-direction: row;
     width: 120px;
     height: 95px;
+    min-width: 120px;
   }
   .timetable__img--active {
     width: 56px;
@@ -849,37 +850,37 @@
     color: #b7cbe7;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .timetable__hour {
     font-size: 12.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .timetable__hour {
     font-size: 12.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 1024px) {
+@media only screen and (min-width: 319px) and (min-width: 1024px) {
   .timetable__hour {
     font-size: 16px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .timetable__hour {
     line-height: 15.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .timetable__hour {
     line-height: 15.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 992px) {
+@media only screen and (min-width: 319px) and (min-width: 992px) {
   .timetable__hour {
     line-height: 19px !important;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .timetable__title {
     font-family: Rubik;
     font-style: normal;
@@ -887,77 +888,82 @@
     margin: 3px 0 4px;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .timetable__title {
     font-size: 14.4px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .timetable__title {
     font-size: 14.4px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 1024px) {
+@media only screen and (min-width: 319px) and (min-width: 1024px) {
   .timetable__title {
     font-size: 18px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .timetable__title {
     line-height: 17.6px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .timetable__title {
     line-height: 17.6px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 992px) {
+@media only screen and (min-width: 319px) and (min-width: 992px) {
   .timetable__title {
     line-height: 22px !important;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .timetable__subtitle {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .timetable__subtitle {
     font-size: 11.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .timetable__subtitle {
     font-size: 11.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 1024px) {
+@media only screen and (min-width: 319px) and (min-width: 1024px) {
   .timetable__subtitle {
     font-size: 14px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .timetable__subtitle {
     line-height: 13.6px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .timetable__subtitle {
     line-height: 13.6px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 992px) {
+@media only screen and (min-width: 319px) and (min-width: 992px) {
   .timetable__subtitle {
     line-height: 17px !important;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .timetable__subtitle a {
     color: #101010;
     text-decoration: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .agenda {
+    margin: 0 auto 177px;
   }
 }
 @media only screen and (min-width: 767px) {

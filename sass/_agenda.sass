@@ -1,6 +1,6 @@
-@include rwd(tablet)
+@include rwd(mobile)
     .agenda
-        margin: 0 auto 177px
+        margin: 0 auto 70px
 
         &__container
             max-width: 1128px
@@ -44,6 +44,7 @@
         &__icon
             @include flex(center, center)
             @include size(120px, 95px)
+            min-width: 120px
 
         &__img
             &--active
@@ -68,3 +69,6 @@
                 color: $text_black
                 text-decoration: none
 
+@include rwd(desktop)
+    .agenda
+        margin: 0 auto 177px
