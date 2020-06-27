@@ -74,9 +74,6 @@
                 margin: 0 0 0 15px
 
 
-
-
-
     .header
         padding: 10px
 
@@ -99,6 +96,29 @@
             @include pos(relative)
             width: 40px
             height: 35px
+            border: none
+            background-color: transparent
+            border-top: 5px solid $nav_dark-blue
+            transition: .3s transform linear
+
+            &::before, &::after
+                content: ''
+                @include pos(absolute, 0, 0)
+                width: 100%
+                border-top: 5px solid $nav_dark-blue
+                transform: translateY(10px)
+
+            &::after
+                transform: translateY(25px)
+                transition: .3s transform linear
+
+
+            &:focus
+                transform: rotate(45deg) translateY(5px)
+                border: none
+
+                &::after
+                    transform: rotate(-90deg) translateX(-10px)
 
 
 @include rwd(desktop)
