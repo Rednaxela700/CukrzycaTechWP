@@ -1,6 +1,5 @@
-@include rwd(tablet)
+@include rwd(mobile)
     .contact
-        min-width: 553px
         @include pos(relative)
         z-index: 0
 
@@ -45,6 +44,7 @@
             background-position: initial !important
             opacity: 32%
             z-index: -1
+
             &.visible
                 background-image: url("../img/contact_bg.jpg")
 
@@ -56,3 +56,7 @@
 
             &--md
                 align-self: flex-start
+
+@include rwd(tablet)
+    .contact
+        min-width: 553px

@@ -1424,9 +1424,8 @@
     justify-content: normal;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .contact {
-    min-width: 553px;
     position: relative;
     top: unset;
     left: unset;
@@ -1455,37 +1454,37 @@
     color: #B7CBE7;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .contact__text {
     font-size: 12.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .contact__text {
     font-size: 12.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 1024px) {
+@media only screen and (min-width: 319px) and (min-width: 1024px) {
   .contact__text {
     font-size: 16px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .contact__text {
     line-height: 22.4px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .contact__text {
     line-height: 22.4px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 992px) {
+@media only screen and (min-width: 319px) and (min-width: 992px) {
   .contact__text {
     line-height: 28px !important;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .contact__btn {
     width: 192px;
     height: 56px;
@@ -1496,7 +1495,7 @@
     min-width: 192px;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .contact__ellipses {
     position: absolute;
     top: 0;
@@ -1511,7 +1510,7 @@
     z-index: -2;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .contact__bg {
     position: absolute;
     top: 0;
@@ -1529,7 +1528,7 @@
     background-image: url("../img/contact_bg.jpg");
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .contact__ellipse {
     margin: 50px;
   }
@@ -1538,6 +1537,11 @@
   }
   .contact__ellipse--md {
     align-self: flex-start;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .contact {
+    min-width: 553px;
   }
 }
 @media only screen and (min-width: 767px) {
