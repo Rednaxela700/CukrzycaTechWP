@@ -645,7 +645,7 @@
     padding: 0;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .speakers {
     max-width: 1664px;
     margin: 0 auto 49px;
@@ -701,37 +701,37 @@
     text-transform: capitalize;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .speaker__name {
     font-size: 19.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .speaker__name {
     font-size: 19.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 1024px) {
+@media only screen and (min-width: 319px) and (min-width: 1024px) {
   .speaker__name {
     font-size: 24px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .speaker__name {
     line-height: 22.4px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .speaker__name {
     line-height: 22.4px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 992px) {
+@media only screen and (min-width: 319px) and (min-width: 992px) {
   .speaker__name {
     line-height: 28px !important;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .speaker__company {
     font-family: Rubik;
     font-style: normal;
@@ -739,32 +739,32 @@
     color: #707070;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .speaker__company {
     font-size: 12.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .speaker__company {
     font-size: 12.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 1024px) {
+@media only screen and (min-width: 319px) and (min-width: 1024px) {
   .speaker__company {
     font-size: 16px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .speaker__company {
     line-height: 19.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .speaker__company {
     line-height: 19.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 992px) {
+@media only screen and (min-width: 319px) and (min-width: 992px) {
   .speaker__company {
     line-height: 24px !important;
   }
