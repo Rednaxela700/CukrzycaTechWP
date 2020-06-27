@@ -1,14 +1,15 @@
-@include rwd(desktop)
+@include rwd(tablet)
     .speakers
         max-width: 1664px
         margin: 0 auto 49px
+
         & .section__title
             margin: 123px 0 76px
 
         &__container
             @include flex(center)
             flex-wrap: wrap
-            padding: 0 124px
+            padding: 0 10px
             background: url("../img/speakers_bg.svg") no-repeat center
             background-position-y: 130px
             background-size: contain
@@ -18,6 +19,7 @@
             //flex-basis: 10%
             min-height: 356px
             text-align: center
+
             &:first-child
                 margin-left: 0
 
@@ -46,4 +48,7 @@
             @include fonts(Rubik, normal, normal, 16px, 24px)
             color: #707070
 
-
+@include rwd(desktop)
+    .speakers
+        &__container
+            padding: 0 124px
