@@ -30,9 +30,15 @@ body
 
 .mobile
     &--hidden
-        display: none !important
+        @include rwd(mobile)
+            display: none
+        @include rwd(desktop)
+            display: flex
 
 .desktop
     &--hidden
         @include rwd(desktop)
             display: none
+
+.overflow--hidden
+    overflow: hidden
