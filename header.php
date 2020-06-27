@@ -5,11 +5,11 @@
     <title><?php
         wp_title('');
         echo ' | ' . bloginfo('name');
-    ?></title>
+        ?></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="manifest" href="<?php echo get_template_directory_uri()?>/site.webmanifest">
+    <link rel="manifest" href="<?php echo get_template_directory_uri() ?>/site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
@@ -29,12 +29,13 @@
         <div class="header__container">
             <div class="logo__container">
                 <a href="#">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/logo_header.png" alt="conference logo" class="logo__item">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/logo_header.png" alt="conference logo"
+                         class="logo__item">
                 </a>
                 <!--                <img src="http://via.placeholder.com/264x55" alt="conference logo">-->
             </div>
             <nav class="nav__wrapper">
-                <ul class="nav__container">
+                <ul class="nav__container nav__container--js mobile--hidden">
                     <li class="nav__item"><a href="" class="nav__link"><span class="nav__text">O konferencji</span></a>
                     </li>
                     <li class="nav__item"><a href="" class="nav__link"><span class="nav__text">Prelegenci</span></a>
@@ -51,8 +52,9 @@
                         </div>
                     </li>
                 </ul>
-                <button class="hamburger desktop--hidden"></button>
-
+            </nav>
+            <nav class="hamburger__container desktop--hidden">
+                <button class="hamburger__btn"></button>
             </nav>
         </div>
     </div>

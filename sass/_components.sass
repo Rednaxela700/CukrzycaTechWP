@@ -27,3 +27,12 @@ body
     @include fonts(Rubik, normal, bold, 48px, 57px)
     color: $heading_dark-blue
     text-align: center
+
+.mobile
+    &--hidden
+        display: none !important
+
+.desktop
+    &--hidden
+        @include rwd(desktop)
+            display: none
