@@ -4,6 +4,8 @@
         @include pos(relative)
         @include size(100%, 120px)
         z-index: 1
+        max-height: 70px
+        padding: 0 10px
 
         &__wrapper
             @include pos(fixed, 0, 0)
@@ -72,10 +74,6 @@
                 display: none
                 transition: display .3s ease-in
                 margin: 0 0 0 15px
-
-
-    .header
-        padding: 10px
 
     .logo
         &__item
