@@ -1,11 +1,15 @@
-@include rwd(desktop)
+@include rwd(tablet)
     .media
         margin: 0 auto 132px
+
         &__container
             @include flex(space-around)
             flex-wrap: wrap
             max-width: 1416px
             margin: 0 auto
+
+        &__item
+            padding-bottom: 20px
 
         &__btn
             display: block
@@ -15,14 +19,15 @@
     .post
         &__content
             max-width: 456px
+
         &__date
-            @include fonts(Rubik, normal, normal, 14px, 17px )
+            @include fonts(Rubik, normal, normal, 14px, 17px)
             color: $text_black
             opacity: 64%
             margin: 18px 0 7px
 
         &__title
-            @include fonts(Rubik, normal, normal, 18px, 22px )
+            @include fonts(Rubik, normal, normal, 18px, 22px)
             color: $agenda_bg
             margin: 0 0 24px
             & a
@@ -30,6 +35,5 @@
                 text-decoration: none
 
         &__excerpt
-            @include fonts(Rubik, normal, normal, 16px, 24px )
-
+            @include fonts(Rubik, normal, normal, 16px, 24px)
 
