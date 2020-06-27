@@ -312,7 +312,7 @@
     margin: 0 0 0 15px;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   main {
     max-width: 1920px;
     margin: 0 auto;
@@ -359,7 +359,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     color: #fff;
   }
@@ -367,52 +367,50 @@
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
-    margin: 0 72px 0 0;
     text-transform: uppercase;
     text-align: right;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .hero__heading {
     font-size: 52.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .hero__heading {
     font-size: 52.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 1024px) {
+@media only screen and (min-width: 319px) and (min-width: 1024px) {
   .hero__heading {
     font-size: 66px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .hero__heading {
     line-height: 52.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .hero__heading {
     line-height: 52.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 992px) {
+@media only screen and (min-width: 319px) and (min-width: 992px) {
   .hero__heading {
     line-height: 66px !important;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .hero__btn {
-    margin: 70px 0 0;
-    width: 388px;
+    margin: 70px 10px 0;
+    min-width: 300px;
     border-radius: 0.5em;
     border-color: #E34137;
     background-color: #E34137;
-    padding: 0 10px;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .hero__overview {
     display: flex;
     justify-content: center;
@@ -428,43 +426,43 @@
     text-transform: none;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .hero__overview h2 {
     font-size: 38.4px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .hero__overview h2 {
     font-size: 38.4px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 1024px) {
+@media only screen and (min-width: 319px) and (min-width: 1024px) {
   .hero__overview h2 {
     font-size: 48px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .hero__overview h2 {
     line-height: 45.6px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .hero__overview h2 {
     line-height: 45.6px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 992px) {
+@media only screen and (min-width: 319px) and (min-width: 992px) {
   .hero__overview h2 {
     line-height: 57px !important;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .hero__overview p {
     margin: 36px 0 102px;
     text-align: center;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .text__lightblue {
     color: #B7CBE7;
   }
@@ -475,39 +473,40 @@
     max-width: 849px;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .text__hero {
     font-size: 12.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .text__hero {
     font-size: 12.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 1024px) {
+@media only screen and (min-width: 319px) and (min-width: 1024px) {
   .text__hero {
     font-size: 16px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .text__hero {
     line-height: 22.4px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .text__hero {
     line-height: 22.4px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 992px) {
+@media only screen and (min-width: 319px) and (min-width: 992px) {
   .text__hero {
     line-height: 28px !important;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .subheading__container {
     align-self: flex-start;
+    padding-left: 15px;
   }
   .subheading__item {
     font-family: Rubik;
@@ -516,37 +515,37 @@
     margin: 0;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .subheading__item {
     font-size: 51.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .subheading__item {
     font-size: 51.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 1024px) {
+@media only screen and (min-width: 319px) and (min-width: 1024px) {
   .subheading__item {
     font-size: 64px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .subheading__item {
     line-height: 51.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .subheading__item {
     line-height: 51.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 992px) {
+@media only screen and (min-width: 319px) and (min-width: 992px) {
   .subheading__item {
     line-height: 64px !important;
   }
 }
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 319px) {
   .subheading__paragraph {
     font-family: Rubik;
     font-style: normal;
@@ -554,34 +553,51 @@
     text-transform: capitalize;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .subheading__paragraph {
     font-size: 19.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .subheading__paragraph {
     font-size: 19.2px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 1024px) {
+@media only screen and (min-width: 319px) and (min-width: 1024px) {
   .subheading__paragraph {
     font-size: 24px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 319px) {
+@media only screen and (min-width: 319px) and (min-width: 319px) {
   .subheading__paragraph {
     line-height: 28.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 767px) {
+@media only screen and (min-width: 319px) and (min-width: 767px) {
   .subheading__paragraph {
     line-height: 28.8px !important;
   }
 }
-@media only screen and (min-width: 767px) and (min-width: 992px) {
+@media only screen and (min-width: 319px) and (min-width: 992px) {
   .subheading__paragraph {
     line-height: 36px !important;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .hero__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .hero__btn {
+    margin: 70px 0 0;
+    max-width: 388px;
+    padding: 0 10px;
+  }
+
+  .subheading__container {
+    padding-left: 0;
   }
 }
 @media only screen and (min-width: 1024px) {

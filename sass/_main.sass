@@ -1,4 +1,4 @@
-@include rwd('tablet')
+@include rwd('mobile')
     main
         max-width: 1920px
         margin: 0 auto
@@ -30,24 +30,22 @@
                 margin: 0 0 0 5.5em
 
         &__container
-            @include flex(center, center)
+            @include flex(center, center, column)
             width: 100%
             color: #fff
         //z-index: 2
 
         &__heading
             @include fonts(Rubik, normal, bold, 66px, 66px)
-            margin: 0 72px 0 0
             text-transform: uppercase
             text-align: right
 
         &__btn
-            margin: 70px 0 0
-            width: 388px
+            margin: 70px 10px 0
+            min-width: 300px
             border-radius: .5em
             border-color: $btnInactive_red
             background-color: $btnInactive_red
-            padding: 0 10px
 
         &__overview
             @include flex(center, center, column)
@@ -73,6 +71,7 @@
     .subheading
         &__container
             align-self: flex-start
+            padding-left: 15px
 
         &__item
             @include fonts(Rubik, normal, bold, 64px, 64px)
@@ -82,6 +81,21 @@
             @include fonts(Rubik, normal, normal, 24px, 36px)
             text-transform: capitalize
 
+
+@include rwd('tablet')
+    .hero
+
+        &__container
+            @include flex(center, center)
+
+        &__btn
+            margin: 70px 0 0
+            max-width: 388px
+            padding:  0 10px
+
+    .subheading
+        &__container
+            padding-left: 0
 
 @include rwd('desktop')
     .hero
