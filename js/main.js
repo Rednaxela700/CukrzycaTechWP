@@ -13,13 +13,28 @@ function hamburger() {
     const body = document.querySelector('body')
     const navWrapper = document.querySelector('.nav__wrapper')
     const navContainer = navWrapper.querySelector('.nav__container')
-    const navIcon = document.querySelector('.hamburger__btn')
+    const mobileNavContainer = body.querySelector('.hamburger__container')
+    const navIcon = mobileNavContainer.querySelector('.hamburger__btn')
+    const links = navWrapper.querySelectorAll('.nav__link')
 
-    navIcon.addEventListener('click', () => {
+    function hide() {
+        if (window.innerWidth < 1024) {
         body.classList.toggle('overflow--hidden')
         navContainer.classList.toggle('mobile--hidden')
         navWrapper.classList.toggle('nav__wrapper--show')
+        }
+    }
+
+    navIcon.addEventListener('click', () => {
+        hide()
+        if (navWrapper.classList.contains('nav__wrapper--show')) {
+            Array.from(links).forEach(el => {
+                el.addEventListener('click', hide)
+            })
+        }
+
     })
+
 
 }
 
