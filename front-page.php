@@ -1,106 +1,112 @@
 <?php include 'header.php'; ?>
 <main>
     <section class="hero">
-        <div class="hero__wrapper">
-            <div class="hero__container">
-                <h1 class="hero__heading">cukrzyca <br> <span class="text__lightblue">tech</span> fest <br><span
-                        class="text__lightblue">2020</span></h1>
-                <div class="subheading__container">
-                    <h2 class="subheading__item">21 <br>wrzesień</h2>
-                    <p class="subheading__paragraph text__lightblue">
-                        Gdynia<br>
-                        Pomorski Park Naukowo Technologiczny
-                    </p>
+        <div class="bg__container">
+            <div class="hero__wrapper">
+                <div class="hero__container">
+                    <h1 class="hero__heading">cukrzyca <br> <span class="text__lightblue">tech</span> fest <br><span
+                            class="text__lightblue">2020</span></h1>
+                    <div class="subheading__container">
+                        <h2 class="subheading__item">21 <br>wrzesień</h2>
+                        <p class="subheading__paragraph text__lightblue">
+                            Gdynia<br>
+                            Pomorski Park Naukowo Technologiczny
+                        </p>
+                    </div>
+                </div>
+
+                <a class="btn hero__btn" href="404.html">Weź udział w wydarzeniu</a>
+                <div class="hero__bg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250"
+                         class="hero__ellipse hero__ellipse--sm">
+                        <defs>
+                            <style>
+                                .cls-1, .cls-3 {
+                                    fill: none;
+                                }
+
+                                .ellipse-sm {
+                                    stroke: #5c8ac8;
+                                    stroke-width: 24px;
+                                    fill: none;
+
+                                }
+
+                                .cls-2 {
+                                    stroke: none;
+                                }
+                            </style>
+                        </defs>
+                        <g id="Ellipse_3" data-name="Ellipse 3" class="ellipse-sm">
+                            <circle class="cls-2" cx="125" cy="125" r="125"/>
+                            <circle class="cls-3" cx="125" cy="125" r="113"/>
+                        </g>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640"
+                         class="hero__ellipse hero__ellipse--lg">
+                        <defs>
+                            <style>
+                                .cls-1, .cls-3 {
+                                    fill: none;
+                                }
+
+                                .ellipse-big {
+                                    stroke: #163e6f;
+                                    stroke-width: 48px;
+                                    fill: none;
+                                }
+
+                                .cls-2 {
+                                    stroke: none;
+                                }
+                            </style>
+                        </defs>
+                        <g id="Ellipse_1" data-name="Ellipse 1" class="ellipse-big">
+                            <circle class="cls-2" cx="320" cy="320" r="320"/>
+                            <circle class="cls-3" cx="320" cy="320" r="296"/>
+                        </g>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340"
+                         class="hero__ellipse hero__ellipse--md">
+                        <defs>
+                            <style>
+                                .cls-1, .cls-3 {
+                                    fill: none;
+                                }
+
+                                .cls-1 {
+                                    stroke: #5c8ac8;
+                                    stroke-width: 32px;
+                                }
+
+                                .cls-2 {
+                                    stroke: none;
+                                }
+                            </style>
+                        </defs>
+                        <g id="Ellipse_2" data-name="Ellipse 2" class="cls-1">
+                            <circle class="cls-2" cx="170" cy="170" r="170"/>
+                            <circle class="cls-3" cx="170" cy="170" r="154"/>
+                        </g>
+                    </svg>
                 </div>
             </div>
-
-            <a class="btn hero__btn" href="404.html">Weź udział w wydarzeniu</a>
-            <div class="hero__bg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250"
-                     class="hero__ellipse hero__ellipse--sm">
-                    <defs>
-                        <style>
-                            .cls-1, .cls-3 {
-                                fill: none;
-                            }
-
-                            .ellipse-sm {
-                                stroke: #5c8ac8;
-                                stroke-width: 24px;
-                                fill: none;
-
-                            }
-
-                            .cls-2 {
-                                stroke: none;
-                            }
-                        </style>
-                    </defs>
-                    <g id="Ellipse_3" data-name="Ellipse 3" class="ellipse-sm">
-                        <circle class="cls-2" cx="125" cy="125" r="125"/>
-                        <circle class="cls-3" cx="125" cy="125" r="113"/>
-                    </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640"
-                     class="hero__ellipse hero__ellipse--lg">
-                    <defs>
-                        <style>
-                            .cls-1, .cls-3 {
-                                fill: none;
-                            }
-
-                            .ellipse-big {
-                                stroke: #163e6f;
-                                stroke-width: 48px;
-                                fill: none;
-                            }
-
-                            .cls-2 {
-                                stroke: none;
-                            }
-                        </style>
-                    </defs>
-                    <g id="Ellipse_1" data-name="Ellipse 1" class="ellipse-big">
-                        <circle class="cls-2" cx="320" cy="320" r="320"/>
-                        <circle class="cls-3" cx="320" cy="320" r="296"/>
-                    </g>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340"
-                     class="hero__ellipse hero__ellipse--md">
-                    <defs>
-                        <style>
-                            .cls-1, .cls-3 {
-                                fill: none;
-                            }
-
-                            .cls-1 {
-                                stroke: #5c8ac8;
-                                stroke-width: 32px;
-                            }
-
-                            .cls-2 {
-                                stroke: none;
-                            }
-                        </style>
-                    </defs>
-                    <g id="Ellipse_2" data-name="Ellipse 2" class="cls-1">
-                        <circle class="cls-2" cx="170" cy="170" r="170"/>
-                        <circle class="cls-3" cx="170" cy="170" r="154"/>
-                    </g>
-                </svg>
+            <div class="section hero__overview">
+                <div id="idea" class="section__link"></div>
+                <h2 class="hero__heading hero__heading--small">Idea konferencji</h2>
+                <p class="text__lightblue text__hero">Już po raz siódmy zapraszamy na największą w Polsce konferencję
+                    email
+                    marketingową — Mail My Day. Czeka
+                    na Ciebie aż 360 minut dużej dawki inspirujących prelekcji i case study. Drugi dzień to 15
+                    praktycznych,
+                    certyfikowanych warsztatów do wyboru. Dzięki wiedzy naszych ekspertów dowiesz się, jak efektywnie
+                    wykorzystać email marketing, łączyć go z innymi działaniami i przekładać to wszystko na zyski.
+                    Konferencja to także świetna okazja intensywnej wymiany doświadczeń między uczestnikami oraz
+                    budowania
+                    relacji na lata.
+                </p>
             </div>
-        </div>
-        <div class="section hero__overview">
-            <div id="idea" class="section__link"></div>
-            <h2 class="hero__heading hero__heading--small">Idea konferencji</h2>
-            <p class="text__lightblue text__hero">Już po raz siódmy zapraszamy na największą w Polsce konferencję email
-                marketingową — Mail My Day. Czeka
-                na Ciebie aż 360 minut dużej dawki inspirujących prelekcji i case study. Drugi dzień to 15 praktycznych,
-                certyfikowanych warsztatów do wyboru. Dzięki wiedzy naszych ekspertów dowiesz się, jak efektywnie
-                wykorzystać email marketing, łączyć go z innymi działaniami i przekładać to wszystko na zyski.
-                Konferencja to także świetna okazja intensywnej wymiany doświadczeń między uczestnikami oraz budowania
-                relacji na lata.
-            </p>
+            <div class="hero__bg--img js-lazy"></div>
         </div>
     </section>
     <section class="section speakers">
@@ -109,7 +115,8 @@
         <div class="speakers__container">
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri()?>/img/corey-haines.png" alt="speaker img" class="speaker__img">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/corey-haines.png" alt="speaker img"
+                         class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
                 <p class="speaker__name">corey haines</p>
@@ -117,7 +124,8 @@
             </div>
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri()?>/img/yam-regev-keynote-1-4rsluffson20.png" alt="speaker img" class="speaker__img">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/yam-regev-keynote-1-4rsluffson20.png"
+                         alt="speaker img" class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
                 <p class="speaker__name">yam regev</p>
@@ -125,7 +133,8 @@
             </div>
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri()?>/img/ben-blanki-300x300-6qr080tli2p0.png" alt="speaker img" class="speaker__img">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/ben-blanki-300x300-6qr080tli2p0.png"
+                         alt="speaker img" class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
                 <p class="speaker__name">ben blanki</p>
@@ -133,7 +142,8 @@
             </div>
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri()?>/img/henrique-moniz-5jl5caoo6td0.png" alt="speaker img" class="speaker__img">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/henrique-moniz-5jl5caoo6td0.png"
+                         alt="speaker img" class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
                 <p class="speaker__name">henrique moniz</p>
@@ -141,7 +151,8 @@
             </div>
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri()?>/img/stephen-meiller-1-1--79jrkugpm480.png" alt="speaker img" class="speaker__img">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/stephen-meiller-1-1--79jrkugpm480.png"
+                         alt="speaker img" class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
                 <p class="speaker__name">Stephen Meiller</p>
@@ -149,7 +160,8 @@
             </div>
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri()?>/img/lm7-4eso7m383kj0.png" alt="speaker img" class="speaker__img">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/lm7-4eso7m383kj0.png" alt="speaker img"
+                         class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
                 <p class="speaker__name">Łukasz Maroszczyk</p>
@@ -157,7 +169,8 @@
             </div>
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri()?>/img/agata-krzysztofik-400x400-1euuet819a2g.png" alt="speaker img" class="speaker__img">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/agata-krzysztofik-400x400-1euuet819a2g.png"
+                         alt="speaker img" class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
                 <p class="speaker__name">Agata Krzysztofik </p>
@@ -165,7 +178,8 @@
             </div>
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri()?>/img/8-1-male-1--3te7jru0gqn0.png" alt="speaker img" class="speaker__img">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/8-1-male-1--3te7jru0gqn0.png"
+                         alt="speaker img" class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
                 <p class="speaker__name">Mick Griffin</p>
@@ -173,7 +187,8 @@
             </div>
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri()?>/img/lowisz-4ns5knvcl730.png" alt="speaker img" class="speaker__img">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/lowisz-4ns5knvcl730.png" alt="speaker img"
+                         class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
                 <p class="speaker__name">Stephen M. Lowisz</p>
@@ -181,7 +196,8 @@
             </div>
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri()?>/img/brennan-dunn-54cesheb3em0.png" alt="speaker img" class="speaker__img">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/brennan-dunn-54cesheb3em0.png"
+                         alt="speaker img" class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
                 <p class="speaker__name">Brennan Dunn</p>
@@ -197,7 +213,8 @@
                 <div class="agenda__item">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/icon_stopwatch.svg" alt="" class="timetable__img">
+                            <img src="<?php echo get_template_directory_uri() ?>/img/icon_stopwatch.svg" alt=""
+                                 class="timetable__img">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">9:00</span>
@@ -208,7 +225,8 @@
                 <div class="agenda__item">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/icon_stopwatch.svg" alt="" class="timetable__img">
+                            <img src="<?php echo get_template_directory_uri() ?>/img/icon_stopwatch.svg" alt=""
+                                 class="timetable__img">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">9:30</span>
@@ -219,7 +237,8 @@
                 <div class="agenda__item agenda__item--active">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/brennan-dunn-54cesheb3em0.png" alt=""
+                            <img src="<?php echo get_template_directory_uri() ?>/img/brennan-dunn-54cesheb3em0.png"
+                                 alt=""
                                  class="timetable__img timetable__img--active">
                         </div>
                         <div class="timetable__item">
@@ -234,7 +253,8 @@
                 <div class="agenda__item agenda__item--active">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/lowisz-4ns5knvcl730.png" alt="" class="timetable__img timetable__img--active">
+                            <img src="<?php echo get_template_directory_uri() ?>/img/lowisz-4ns5knvcl730.png" alt=""
+                                 class="timetable__img timetable__img--active">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">9:00</span>
@@ -248,7 +268,8 @@
                 <div class="agenda__item">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/icon_stopwatch.svg" alt="" class="timetable__img">
+                            <img src="<?php echo get_template_directory_uri() ?>/img/icon_stopwatch.svg" alt=""
+                                 class="timetable__img">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">11:00</span>
@@ -259,7 +280,8 @@
                 <div class="agenda__item agenda__item--active">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/8-1-male-1--3te7jru0gqn0.png" alt=""
+                            <img src="<?php echo get_template_directory_uri() ?>/img/8-1-male-1--3te7jru0gqn0.png"
+                                 alt=""
                                  class="timetable__img  timetable__img--active">
                         </div>
                         <div class="timetable__item">
@@ -274,7 +296,8 @@
                 <div class="agenda__item agenda__item--active">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/lm7-4eso7m383kj0.png" alt="" class="timetable__img timetable__img--active">
+                            <img src="<?php echo get_template_directory_uri() ?>/img/lm7-4eso7m383kj0.png" alt=""
+                                 class="timetable__img timetable__img--active">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">12:00</span>
@@ -288,8 +311,10 @@
                 <div class="agenda__item agenda__item--active">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/agata-krzysztofik-400x400-1euuet819a2g.png" alt=""
-                                 class="timetable__img  timetable__img--active">
+                            <img
+                                src="<?php echo get_template_directory_uri() ?>/img/agata-krzysztofik-400x400-1euuet819a2g.png"
+                                alt=""
+                                class="timetable__img  timetable__img--active">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">12:30</span>
@@ -303,8 +328,10 @@
                 <div class="agenda__item agenda__item--active">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/ben-blanki-300x300-6qr080tli2p0.png" alt=""
-                                 class="timetable__img  timetable__img--active">
+                            <img
+                                src="<?php echo get_template_directory_uri() ?>/img/ben-blanki-300x300-6qr080tli2p0.png"
+                                alt=""
+                                class="timetable__img  timetable__img--active">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">9:00</span>
@@ -318,7 +345,8 @@
                 <div class="agenda__item">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/icon_stopwatch.svg" alt="" class="timetable__img">
+                            <img src="<?php echo get_template_directory_uri() ?>/img/icon_stopwatch.svg" alt=""
+                                 class="timetable__img">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">9:00</span>
@@ -329,8 +357,10 @@
                 <div class="agenda__item agenda__item--active">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/stephen-meiller-1-1--79jrkugpm480.png" alt=""
-                                 class="timetable__img  timetable__img--active">
+                            <img
+                                src="<?php echo get_template_directory_uri() ?>/img/stephen-meiller-1-1--79jrkugpm480.png"
+                                alt=""
+                                class="timetable__img  timetable__img--active">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">9:00</span>
@@ -344,7 +374,8 @@
                 <div class="agenda__item agenda__item--active">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/corey-haines.png" alt="" class="timetable__img  timetable__img--active">
+                            <img src="<?php echo get_template_directory_uri() ?>/img/corey-haines.png" alt=""
+                                 class="timetable__img  timetable__img--active">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">9:00</span>
@@ -358,8 +389,10 @@
                 <div class="agenda__item agenda__item--active">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/yam-regev-keynote-1-4rsluffson20.png" alt=""
-                                 class="timetable__img  timetable__img--active">
+                            <img
+                                src="<?php echo get_template_directory_uri() ?>/img/yam-regev-keynote-1-4rsluffson20.png"
+                                alt=""
+                                class="timetable__img  timetable__img--active">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">9:00</span>
@@ -373,7 +406,8 @@
                 <div class="agenda__item">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri()?>/img/icon_stopwatch.svg" alt="" class="timetable__img">
+                            <img src="<?php echo get_template_directory_uri() ?>/img/icon_stopwatch.svg" alt=""
+                                 class="timetable__img">
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">9:00</span>
@@ -390,7 +424,8 @@
         <div class="media__wrapper">
             <div class="media__container">
                 <div class="media__item">
-                    <img src="<?php echo get_template_directory_uri()?>/img/2175.jpg" alt="post img" class="post__thumb">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/2175.jpg" alt="post img"
+                         class="post__thumb">
                     <div class="post__content">
                         <span class="post__date">11 lip 2013</span>
                         <div class="post__title">
@@ -402,7 +437,8 @@
                     </div>
                 </div>
                 <div class="media__item">
-                    <img src="<?php echo get_template_directory_uri()?>/img/226.jpg" alt="post img" class="post__thumb">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/226.jpg" alt="post img"
+                         class="post__thumb">
                     <div class="post__content">
                         <span class="post__date">11 lip 2013</span>
                         <div class="post__title">
@@ -414,7 +450,8 @@
                     </div>
                 </div>
                 <div class="media__item">
-                    <img src="<?php echo get_template_directory_uri()?>/img/3588.jpg" alt="post img" class="post__thumb">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/3588.jpg" alt="post img"
+                         class="post__thumb">
                     <div class="post__content">
                         <span class="post__date">11 lip 2013</span>
                         <div class="post__title">
@@ -497,12 +534,18 @@
         <div class="partners__wrapper">
             <span class="partners__subtitle">organizatorzy</span>
             <div class="partners__container">
-                <img src="<?php echo get_template_directory_uri()?>/img/logo_promo.png" alt="partner logo" class="partners__img">
-                <img src="<?php echo get_template_directory_uri()?>/img/cxqnrnn3.mnd.png" alt="partner logo" class="partners__img">
-                <img src="<?php echo get_template_directory_uri()?>/img/logo_ptd.png" alt="partner logo" class="partners__img">
-                <img src="<?php echo get_template_directory_uri()?>/img/logo_caryone_white_big.png" alt="partner logo" class="partners__img">
-                <img src="<?php echo get_template_directory_uri()?>/img/B._Braun_logo.png" alt="partner logo" class="partners__img">
-                <img src="<?php echo get_template_directory_uri()?>/img/abbott_logo.png" alt="partner logo" class="partners__img">
+                <img src="<?php echo get_template_directory_uri() ?>/img/logo_promo.png" alt="partner logo"
+                     class="partners__img">
+                <img src="<?php echo get_template_directory_uri() ?>/img/cxqnrnn3.mnd.png" alt="partner logo"
+                     class="partners__img">
+                <img src="<?php echo get_template_directory_uri() ?>/img/logo_ptd.png" alt="partner logo"
+                     class="partners__img">
+                <img src="<?php echo get_template_directory_uri() ?>/img/logo_caryone_white_big.png" alt="partner logo"
+                     class="partners__img">
+                <img src="<?php echo get_template_directory_uri() ?>/img/B._Braun_logo.png" alt="partner logo"
+                     class="partners__img">
+                <img src="<?php echo get_template_directory_uri() ?>/img/abbott_logo.png" alt="partner logo"
+                     class="partners__img">
             </div>
         </div>
     </section>
