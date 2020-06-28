@@ -685,7 +685,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0 10px;
-    background: url("../img/speakers_bg.svg") no-repeat center;
+    background: url("./img/speakers_bg.svg") no-repeat center;
     background-position-y: 130px;
     background-size: contain;
   }
@@ -1348,7 +1348,7 @@
 }
 @media only screen and (min-width: 319px) {
   .ticket__advantages li::before {
-    content: url("../img/check.svg");
+    content: url("./img/check.svg");
     margin: 0 12px 0 0;
   }
 }
@@ -1550,7 +1550,7 @@
     z-index: -1;
   }
   .contact__bg.visible {
-    background-image: url("../img/contact_bg.jpg");
+    background-image: url("./img/contact_bg.jpg");
   }
 }
 @media only screen and (min-width: 319px) {
