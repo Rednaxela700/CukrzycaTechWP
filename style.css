@@ -364,8 +364,8 @@
     z-index: -1;
   }
   .hero__ellipse {
-    margin: 30px;
-    padding: 30px 10px;
+    margin: 0;
+    padding: 0;
   }
   .hero__ellipse--sm {
     align-self: flex-end;
@@ -529,6 +529,7 @@
   .subheading__container {
     align-self: flex-start;
     padding-left: 15px;
+    margin: 0 auto;
   }
   .subheading__item {
     font-family: Rubik;
@@ -620,9 +621,14 @@
   .hero__heading {
     margin: 0 72px 0 0;
   }
+  .hero__ellipse {
+    margin: 30px;
+    padding: 30px 10px;
+  }
 
   .subheading__container {
     padding-left: 0;
+    margin: 0;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -1555,7 +1561,7 @@
 }
 @media only screen and (min-width: 319px) {
   .contact__ellipse {
-    margin: 50px;
+    margin: 0;
   }
   .contact__ellipse--sm {
     align-self: flex-end;
@@ -1567,6 +1573,9 @@
 @media only screen and (min-width: 767px) {
   .contact {
     min-width: 553px;
+  }
+  .contact__ellipse {
+    margin: 50px;
   }
 }
 @media only screen and (min-width: 319px) {
