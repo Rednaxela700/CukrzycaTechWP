@@ -1,17 +1,35 @@
-@include rwd(tablet)
+@include rwd(mobile)
     .footer
         max-width: 1920px
         margin: 0 auto
         background-color: $nav_dark-blue
+
         &__container
-            @include flex(space-around)
+            @include flex(space-around, normal, column)
+
         &__item
-            @include flex(center, center)
+            @include flex(center, center, column)
             color: #fff
+            & > span
+                display: block
+                margin-bottom: 20px
     .social
         &__container
             @include flex()
-            margin: 0 0 0 24px
+            margin: 0 0 40px 24px
 
         &__item
             margin: 0 8px
+
+
+@include rwd(tablet)
+    .footer
+        &__container, &__item
+            flex-direction: row
+
+        &__item
+            & > span
+                margin-bottom: 0
+    .social
+        &__container
+            margin: 0 0 0 24px
