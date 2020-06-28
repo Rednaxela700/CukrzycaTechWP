@@ -1,3 +1,14 @@
+/*  Theme Name: Diabetes2020
+ *  Theme URI: https://wordpress.org/themes/twentytwenty/
+ *  Author: Aleksander Walczuk
+ *  Author URI: https://github.com/Rednaxela700
+ *  Description: Custom theme created for http://cukrzyca.tech/
+ *  Tags: blog, one-page, events, technology
+ *  Version: 1.0
+ *  Requires at least: 5.0
+ *  Tested up to: 5.4
+ *  License: MIT
+ *  */
 @media only screen and (min-width: 319px) {
   .header {
     position: relative;
