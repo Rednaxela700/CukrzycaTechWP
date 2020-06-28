@@ -153,6 +153,12 @@
         &__wrapper
             @include flex(center, center)
 
+            &--show
+                background-color: #fff
+                @include pos(initial)
+                height: auto
+                width: auto
+
         &__container
             @include flex(center, center)
             list-style: none

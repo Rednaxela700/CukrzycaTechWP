@@ -244,6 +244,14 @@
     align-items: center;
     flex-direction: row;
   }
+  .nav__wrapper--show {
+    background-color: #fff;
+    position: initial;
+    top: unset;
+    left: unset;
+    height: auto;
+    width: auto;
+  }
   .nav__container {
     display: flex;
     justify-content: center;
@@ -1766,6 +1774,11 @@ body {
 
 .overflow--hidden {
   overflow: hidden;
+}
+@media only screen and (min-width: 1024px) {
+  .overflow--hidden {
+    overflow: auto;
+  }
 }
 
 .section {
