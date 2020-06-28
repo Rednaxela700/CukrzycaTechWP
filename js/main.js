@@ -2,7 +2,7 @@
 function createBtnAnimation(btn) {
     const btnWidth = btn.offsetWidth
     btn.addEventListener('mouseover', () => gsap.to('.js-navBtn', {duration: .3, width: 222 + 20 }))
-    btn.addEventListener('mouseout', () => gsap.to('.js-navBtn', {duration: .3, width: btnWidth}))
+    btn.addEventListener('mouseout', () => gsap.to('.js-navBtn', {duration: .3, width: 222}))
 
 }
 
