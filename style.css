@@ -1768,4 +1768,20 @@ body {
   overflow: hidden;
 }
 
+.section {
+  position: relative;
+}
+@media only screen and (min-width: 319px) {
+  .section__link {
+    position: absolute;
+    top: -70px;
+    left: unset;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .section__link {
+    top: -120px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -42,3 +42,11 @@ body
 
 .overflow--hidden
     overflow: hidden
+
+.section
+    position: relative
+    &__link
+        @include rwd(mobile)
+            @include pos(absolute, -70px)
+        @include rwd(desktop)
+            top: -120px

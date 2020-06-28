@@ -90,7 +90,8 @@
                 </svg>
             </div>
         </div>
-        <div class="hero__overview">
+        <div class="section hero__overview">
+            <div id="idea" class="section__link"></div>
             <h2 class="hero__heading hero__heading--small">Idea konferencji</h2>
             <p class="text__lightblue text__hero">Już po raz siódmy zapraszamy na największą w Polsce konferencję email
                 marketingową — Mail My Day. Czeka
@@ -103,6 +104,7 @@
         </div>
     </section>
     <section class="section speakers">
+        <div id="speakers" class="section__link"></div>
         <h2 class="section__title">Prelegenci</h2>
         <div class="speakers__container">
             <div class="speakers__item">
@@ -188,6 +190,7 @@
         </div>
     </section>
     <section class="section agenda">
+        <div id="agenda" class="section__link"></div>
         <h2 class="section__title">Agenda</h2>
         <div class="agenda__wrapper">
             <div class="agenda__container">
@@ -382,6 +385,7 @@
         </div>
     </section>
     <section class="section media">
+        <div id="media" class="section__link"></div>
         <h2 class="section__title">Media o nas</h2>
         <div class="media__wrapper">
             <div class="media__container">
@@ -426,6 +430,7 @@
         </div>
     </section>
     <section class="section register">
+        <div id="register" class="section__link"></div>
         <h2 class="section__title">Bilety i rejestracja</h2>
         <div class="register__wrapper">
             <div class="register__container">
@@ -487,6 +492,7 @@
         </div>
     </section>
     <section class="section partners">
+        <div id="partners" class="section__link"></div>
         <h2 class="section__title">Partnerzy</h2>
         <div class="partners__wrapper">
             <span class="partners__subtitle">organizatorzy</span>
@@ -501,6 +507,7 @@
         </div>
     </section>
     <section class="section contact">
+        <div id="contact" class="section__link"></div>
         <h2 class="section__title">Kontakt</h2>
         <div class="contact__wrapper">
             <div class="contact__container">
