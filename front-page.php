@@ -5,9 +5,9 @@
             <div class="hero__wrapper">
                 <div class="hero__container">
                     <h1 class="hero__heading">cukrzyca <br> <span class="text__lightblue">tech</span> fest <br><span
-                            class="text__lightblue">2020</span></h1>
+                            class="text__lightblue">2021</span></h1>
                     <div class="subheading__container">
-                        <h2 class="subheading__item">21 <br>wrzesień</h2>
+                        <h2 class="subheading__item">Marzec 2021 <br></h2>
                         <p class="subheading__paragraph text__lightblue">
                             Gdynia<br>
                             Pomorski Park Naukowo Technologiczny
@@ -15,7 +15,7 @@
                     </div>
                 </div>
 
-                <a class="btn hero__btn" href="404.html">Weź udział w wydarzeniu</a>
+                <a class="btn hero__btn" href="404.html">Zarejestruj się terez!</a>
                 <div class="hero__bg">
                     <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250"
                          class="hero__ellipse hero__ellipse--sm">
@@ -93,21 +93,38 @@
             </div>
             <div class="section hero__overview">
                 <div id="idea" class="section__link"></div>
-                <h2 class="hero__heading hero__heading--small">Idea konferencji</h2>
-                <p class="text__lightblue text__hero">Już po raz siódmy zapraszamy na największą w Polsce konferencję
-                    email
-                    marketingową — Mail My Day. Czeka
-                    na Ciebie aż 360 minut dużej dawki inspirujących prelekcji i case study. Drugi dzień to 15
-                    praktycznych,
-                    certyfikowanych warsztatów do wyboru. Dzięki wiedzy naszych ekspertów dowiesz się, jak efektywnie
-                    wykorzystać email marketing, łączyć go z innymi działaniami i przekładać to wszystko na zyski.
-                    Konferencja to także świetna okazja intensywnej wymiany doświadczeń między uczestnikami oraz
-                    budowania
-                    relacji na lata.
+                <h2 class="hero__heading hero__heading--small">IDEA konferencji</h2>
+                <p class="text__lightblue text__hero">XXI wiek przyniósł nam wiele nowoczesnych rozwiązań dla diabetyków. Pompy, CGMy, inteligentne peny i wreszczie - systemy zamkniętej pętli cukrzycowej. Technologia ma jednak to do siebie, że potrafi nas przerosnąć, dlatego często suzkamy wsparcia wśród społeczności, wiedzy, instrukcji czy też pomocnej dłoni. Konferencję CukrzycaTech fest tworzymy właśnie dla Was - żeby ułatwić wejście w świat "diabtech", dzielić się więdzą oraz po prostu spotkać przyjazną nam osobę, z tymi samymi problemami. Darmowe Expo, na którym wystawią się topowe firmyprodukujące sprzęt dla diabetyków, wykłady oraz warsztaty - to wszystko już w Marcu, w nowoczesnej Gdyni.
                 </p>
             </div>
             <div class="hero__bg--img js-lazy"></div>
         </div>
+    </section>
+	<section class="section media">
+        <div id="media" class="section__link"></div>
+        <h2 class="section__title">Nasz blog</h2>
+        <div class="media__wrapper">
+			 <div class="media__container">
+<?php $temp_query = clone $wp_query; ?>
+<?php query_posts( 'posts_per_page=3' ); ?>
+
+<?php while ( have_posts() ) : the_post(); ?>
+			 <div class="media__item">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/2175.jpg" alt="post img"
+                         class="post__thumb">
+                    <div class="post__content">
+                        <span class="post__date"><?php the_time('j F Y'); ?></span>
+                        <div class="post__title">
+                            	<a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+                        </div>
+                        <div class="post__excerpt"><?php echo wp_trim_words( get_the_excerpt(), 40 ); ?></div>
+                    </div>
+                </div>
+<?php endwhile; ?>
+<?php $wp_query = clone $temp_query; ?>
+            </div>
+            <button class="btn__blue media__btn">Pokaż więcej</button>
+		</div>
     </section>
     <section class="section speakers">
         <div id="speakers" class="section__link"></div>
@@ -115,94 +132,23 @@
         <div class="speakers__container">
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/corey-haines.png" alt="speaker img"
+                    <img src="http://cukrzyca.tech/wp-content/uploads/2020/07/jaroslaw-jerry-gilewicz.jpg" alt="speaker img"
                          class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
-                <p class="speaker__name">corey haines</p>
-                <span class="speaker__company">Baremetrics</span>
+                <p class="speaker__name">Jarosław Jerry Gilewicz</p>
+                <span class="speaker__company">Cukrzyca.Tech</span>
             </div>
             <div class="speakers__item">
                 <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/yam-regev-keynote-1-4rsluffson20.png"
+                    <img src="http://cukrzyca.tech/wp-content/uploads/2020/07/maciej-łysiak.jpg"
                          alt="speaker img" class="speaker__img">
                     <button class="speaker__btn">+</button>
                 </div>
-                <p class="speaker__name">yam regev</p>
-                <span class="speaker__company">Zest.is</span>
+                <p class="speaker__name">Maciej Łysiak</p>
+                <span class="speaker__company">Nie Słodzę Vlog</span>
             </div>
-            <div class="speakers__item">
-                <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/ben-blanki-300x300-6qr080tli2p0.png"
-                         alt="speaker img" class="speaker__img">
-                    <button class="speaker__btn">+</button>
-                </div>
-                <p class="speaker__name">ben blanki</p>
-                <span class="speaker__company">Promo.com</span>
-            </div>
-            <div class="speakers__item">
-                <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/henrique-moniz-5jl5caoo6td0.png"
-                         alt="speaker img" class="speaker__img">
-                    <button class="speaker__btn">+</button>
-                </div>
-                <p class="speaker__name">henrique moniz</p>
-                <span class="speaker__company">G2.com</span>
-            </div>
-            <div class="speakers__item">
-                <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/stephen-meiller-1-1--79jrkugpm480.png"
-                         alt="speaker img" class="speaker__img">
-                    <button class="speaker__btn">+</button>
-                </div>
-                <p class="speaker__name">Stephen Meiller</p>
-                <span class="speaker__company">Unbounce</span>
-            </div>
-            <div class="speakers__item">
-                <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/lm7-4eso7m383kj0.png" alt="speaker img"
-                         class="speaker__img">
-                    <button class="speaker__btn">+</button>
-                </div>
-                <p class="speaker__name">Łukasz Maroszczyk</p>
-                <span class="speaker__company">Signify</span>
-            </div>
-            <div class="speakers__item">
-                <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/agata-krzysztofik-400x400-1euuet819a2g.png"
-                         alt="speaker img" class="speaker__img">
-                    <button class="speaker__btn">+</button>
-                </div>
-                <p class="speaker__name">Agata Krzysztofik </p>
-                <span class="speaker__company">Piktochart</span>
-            </div>
-            <div class="speakers__item">
-                <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/8-1-male-1--3te7jru0gqn0.png"
-                         alt="speaker img" class="speaker__img">
-                    <button class="speaker__btn">+</button>
-                </div>
-                <p class="speaker__name">Mick Griffin</p>
-                <span class="speaker__company">Brand24</span>
-            </div>
-            <div class="speakers__item">
-                <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/lowisz-4ns5knvcl730.png" alt="speaker img"
-                         class="speaker__img">
-                    <button class="speaker__btn">+</button>
-                </div>
-                <p class="speaker__name">Stephen M. Lowisz</p>
-                <span class="speaker__company">21LEAP</span>
-            </div>
-            <div class="speakers__item">
-                <div class="speaker__popup">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/brennan-dunn-54cesheb3em0.png"
-                         alt="speaker img" class="speaker__img">
-                    <button class="speaker__btn">+</button>
-                </div>
-                <p class="speaker__name">Brennan Dunn</p>
-                <span class="speaker__company">RightMessage</span>
-            </div>
+          
         </div>
     </section>
     <section class="section agenda">
@@ -217,7 +163,7 @@
                                  class="timetable__img">
                         </div>
                         <div class="timetable__item">
-                            <span class="timetable__hour">9:00</span>
+                            <span class="timetable__hour">8:00</span>
                             <div class="timetable__title">Otwarcie i rejestracja uczestników</div>
                         </div>
                     </div>
@@ -229,23 +175,23 @@
                                  class="timetable__img">
                         </div>
                         <div class="timetable__item">
-                            <span class="timetable__hour">9:30</span>
-                            <div class="timetable__title">Ceremonia otwarcia</div>
+                            <span class="timetable__hour">9:00</span>
+                            <div class="timetable__title">Otwarcie</div>
                         </div>
                     </div>
                 </div>
                 <div class="agenda__item agenda__item--active">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/brennan-dunn-54cesheb3em0.png"
+                            <img src="http://cukrzyca.tech/wp-content/uploads/2020/07/jaroslaw-jerry-gilewicz.jpg"
                                  alt=""
                                  class="timetable__img timetable__img--active">
                         </div>
                         <div class="timetable__item">
-                            <span class="timetable__hour">10:00</span>
-                            <div class="timetable__title">Keynote - The Future of Java and You - EN</div>
+                            <span class="timetable__hour">09:15</span>
+                            <div class="timetable__title">Nowoczesne technologie - przyszłość, teraźniejszość i przyszłość.</div>
                             <div class="timetable__subtitle">
-                                By <span><a href="#">Heather VanCura</a> Java Community Process (JCP)</span>
+                                <span><a href="#">Jarosław Jerry Gilewicz</a> Cukrzyca.Tech</span>
                             </div>
                         </div>
                     </div>
@@ -253,172 +199,23 @@
                 <div class="agenda__item agenda__item--active">
                     <div class="timetable__container">
                         <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/lowisz-4ns5knvcl730.png" alt=""
+                            <img src="http://cukrzyca.tech/wp-content/uploads/2020/07/maciej-łysiak.jpg" alt=""
                                  class="timetable__img timetable__img--active">
                         </div>
                         <div class="timetable__item">
-                            <span class="timetable__hour">9:00</span>
-                            <div class="timetable__title">The Reactive Landscape - EN</div>
+                            <span class="timetable__hour">9:45</span>
+                            <div class="timetable__title">TBA</div>
                             <div class="timetable__subtitle">
-                                By <span><a href="#">Clement Escoffier</a> Red Hat</span>
+                                <span><a href="#">Maciej Łysiak</a> Nie Słodzę Vlog</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="agenda__item">
-                    <div class="timetable__container">
-                        <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/icon_stopwatch.svg" alt=""
-                                 class="timetable__img">
-                        </div>
-                        <div class="timetable__item">
-                            <span class="timetable__hour">11:00</span>
-                            <div class="timetable__title">Przerwa na kawę & networking</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="agenda__item agenda__item--active">
-                    <div class="timetable__container">
-                        <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/8-1-male-1--3te7jru0gqn0.png"
-                                 alt=""
-                                 class="timetable__img  timetable__img--active">
-                        </div>
-                        <div class="timetable__item">
-                            <span class="timetable__hour">11:30</span>
-                            <div class="timetable__title">Object-Oriented Programming in the Enterprise - EN</div>
-                            <div class="timetable__subtitle">
-                                By <span><a href="#">Nicolas Frankel</a>  Exoscale</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="agenda__item agenda__item--active">
-                    <div class="timetable__container">
-                        <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/lm7-4eso7m383kj0.png" alt=""
-                                 class="timetable__img timetable__img--active">
-                        </div>
-                        <div class="timetable__item">
-                            <span class="timetable__hour">12:00</span>
-                            <div class="timetable__title">Object-Oriented Programming in the Enterprise - EN</div>
-                            <div class="timetable__subtitle">
-                                By <span><a href="#">Ahmet Yıldız</a> adesso Turkey</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="agenda__item agenda__item--active">
-                    <div class="timetable__container">
-                        <div class="timetable__icon">
-                            <img
-                                src="<?php echo get_template_directory_uri() ?>/img/agata-krzysztofik-400x400-1euuet819a2g.png"
-                                alt=""
-                                class="timetable__img  timetable__img--active">
-                        </div>
-                        <div class="timetable__item">
-                            <span class="timetable__hour">12:30</span>
-                            <div class="timetable__title">Keynote - The Future of Java and You - EN</div>
-                            <div class="timetable__subtitle">
-                                By <span><a href="#">Heather VanCura</a> Java Community Process (JCP)</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="agenda__item agenda__item--active">
-                    <div class="timetable__container">
-                        <div class="timetable__icon">
-                            <img
-                                src="<?php echo get_template_directory_uri() ?>/img/ben-blanki-300x300-6qr080tli2p0.png"
-                                alt=""
-                                class="timetable__img  timetable__img--active">
-                        </div>
-                        <div class="timetable__item">
-                            <span class="timetable__hour">9:00</span>
-                            <div class="timetable__title">The Reactive Landscape - EN</div>
-                            <div class="timetable__subtitle">
-                                By <span><a href="#">Clement Escoffier</a> Red Hat</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="agenda__item">
-                    <div class="timetable__container">
-                        <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/icon_stopwatch.svg" alt=""
-                                 class="timetable__img">
-                        </div>
-                        <div class="timetable__item">
-                            <span class="timetable__hour">9:00</span>
-                            <div class="timetable__title">Przerwa na kawę & networking</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="agenda__item agenda__item--active">
-                    <div class="timetable__container">
-                        <div class="timetable__icon">
-                            <img
-                                src="<?php echo get_template_directory_uri() ?>/img/stephen-meiller-1-1--79jrkugpm480.png"
-                                alt=""
-                                class="timetable__img  timetable__img--active">
-                        </div>
-                        <div class="timetable__item">
-                            <span class="timetable__hour">9:00</span>
-                            <div class="timetable__title">Object-Oriented Programming in the Enterprise - EN</div>
-                            <div class="timetable__subtitle">
-                                By <span><a href="#">Nicolas Frankel</a> Exoscale</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="agenda__item agenda__item--active">
-                    <div class="timetable__container">
-                        <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/corey-haines.png" alt=""
-                                 class="timetable__img  timetable__img--active">
-                        </div>
-                        <div class="timetable__item">
-                            <span class="timetable__hour">9:00</span>
-                            <div class="timetable__title">Object-Oriented Programming in the Enterprise - EN</div>
-                            <div class="timetable__subtitle">
-                                By <span><a href="#">Ahmet Yıldız</a> adesso Turkey</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="agenda__item agenda__item--active">
-                    <div class="timetable__container">
-                        <div class="timetable__icon">
-                            <img
-                                src="<?php echo get_template_directory_uri() ?>/img/yam-regev-keynote-1-4rsluffson20.png"
-                                alt=""
-                                class="timetable__img  timetable__img--active">
-                        </div>
-                        <div class="timetable__item">
-                            <span class="timetable__hour">9:00</span>
-                            <div class="timetable__title">Keynote - The Future of Java and You - EN</div>
-                            <div class="timetable__subtitle">
-                                By <span><a href="#">Heather VanCura</a> Java Community Process (JCP)</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="agenda__item">
-                    <div class="timetable__container">
-                        <div class="timetable__icon">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/icon_stopwatch.svg" alt=""
-                                 class="timetable__img">
-                        </div>
-                        <div class="timetable__item">
-                            <span class="timetable__hour">9:00</span>
-                            <div class="timetable__title">Uroczyste zakończenie konferencji</div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
-    <section class="section media">
+<!--    <section class="section media">
         <div id="media" class="section__link"></div>
         <h2 class="section__title">Media o nas</h2>
         <div class="media__wrapper">
@@ -465,7 +262,7 @@
             </div>
             <button class="btn__blue media__btn">Pokaż więcej</button>
         </div>
-    </section>
+    </section> -->
     <section class="section register">
         <div id="register" class="section__link"></div>
         <h2 class="section__title">Bilety i rejestracja</h2>
@@ -474,56 +271,53 @@
                 <div class="register__item">
                     <div class="ticket__container">
                         <div class="ticket__header">
-                            <span class="ticket__subtitle">early bird registration</span>
-                            <h3 class="ticket__title">Main conference</h3>
+                            <span class="ticket__subtitle"></span>
+                            <h3 class="ticket__title">Darmowe Expo</h3>
                             <div class="ticket__price">0 zł</div>
                         </div>
                         <div class="ticket__body">
                             <ul class="ticket__advantages">
-                                <li>One day full pass</li>
-                                <li>Early Bird Morning Tea</li>
-                                <li>Early Bird Lunch</li>
-                                <li>Early Bird Afternoon Tea</li>
-                                <li>Early Bird Limited numbers!!!</li>
+                                <li>Jeden dzień (wybrany)</li>
+                                <li>Ponad 10 wystawców</li>
+                                <li>Strefa networking</li>
                             </ul>
                         </div>
                     </div>
-                    <a href="" class="btn register__btn">Rezerwuj pakiet</a></div>
+                    <a href="" class="btn register__btn">Zarejestruj się</a></div>
                 <div class="register__item">
                     <div class="ticket__container">
                         <div class="ticket__header">
-                            <span class="ticket__subtitle">regular bird registration</span>
-                            <h3 class="ticket__title">Main conference</h3>
-                            <div class="ticket__price">250 zł</div>
+                            <span class="ticket__subtitle"></span>
+                            <h3 class="ticket__title">Bilet płatny</h3>
+                            <div class="ticket__price">40 zł</div>
                         </div>
                         <div class="ticket__body">
                             <ul class="ticket__advantages">
-                                <li>One day full pass</li>
-                                <li>Early Bird Morning Tea</li>
-                                <li>Early Bird Lunch</li>
-                                <li>Early Bird Afternoon Tea</li>
+                                <li>Dwa dni Expo</li>
+                                <li>2x Bon na kawę</li>
+                                <li>Lunch</li>
+                                <li>Strefa networking</li>
                             </ul>
                         </div>
                     </div>
-                    <a href="" class="btn register__btn">Rezerwuj pakiet</a></div>
+                    <a href="" class="btn register__btn">Kup Bilet</a></div>
                 <div class="register__item">
                     <div class="ticket__container">
                         <div class="ticket__header">
-                            <span class="ticket__subtitle">student registration</span>
-                            <h3 class="ticket__title">Main conference</h3>
-                            <div class="ticket__price">450 zł</div>
+                            <span class="ticket__subtitle"></span>
+                            <h3 class="ticket__title">Warsztaty</h3>
+                            <div class="ticket__price"></div>
                         </div>
                         <div class="ticket__body">
                             <ul class="ticket__advantages">
-                                <li>One day full pass</li>
-                                <li>Early Bird Morning Tea</li>
-                                <li>Early Bird Lunch</li>
-                                <li>Early Bird Afternoon Tea</li>
-                                <li>Early Bird Limited numbers!!!</li>
+                                <li>Psychologiczne</li>
+                                <li>Dietetyczne</li>
+                                <li>AAPS Build Party</li>
+                                <li>Loop Build Meetup</li>
                             </ul>
                         </div>
                     </div>
-                    <a href="" class="btn register__btn">Rezerwuj pakiet</a></div>
+                    <a href="" class="btn register__btn">Sprawdź ofertę</a></div>
             </div>
 
         </div>
@@ -534,20 +328,22 @@
         <div class="partners__wrapper">
             <span class="partners__subtitle">organizatorzy</span>
             <div class="partners__container">
-                <img src="<?php echo get_template_directory_uri() ?>/img/logo_promo.png" alt="partner logo"
+                <img src="http://cukrzyca.tech/wp-content/uploads/2020/07/logo-cukrzycatech.jpg" alt="partner logo"
                      class="partners__img">
-                <img src="<?php echo get_template_directory_uri() ?>/img/cxqnrnn3.mnd.png" alt="partner logo"
+				<img src="http://cukrzyca.tech/wp-content/uploads/2020/07/d_labs_logo-1.jpg" alt="partner logo"
                      class="partners__img">
-                <img src="<?php echo get_template_directory_uri() ?>/img/logo_ptd.png" alt="partner logo"
-                     class="partners__img">
-                <img src="<?php echo get_template_directory_uri() ?>/img/logo_caryone_white_big.png" alt="partner logo"
-                     class="partners__img">
-                <img src="<?php echo get_template_directory_uri() ?>/img/B._Braun_logo.png" alt="partner logo"
-                     class="partners__img">
-                <img src="<?php echo get_template_directory_uri() ?>/img/abbott_logo.png" alt="partner logo"
-                     class="partners__img">
+              
             </div>
         </div>
+		 <div class="partners__wrapper">
+            <span class="partners__subtitle">Partnerzy</span>
+            <div class="partners__container">
+                <img src="http://cukrzyca.tech/wp-content/uploads/2020/07/1200px-Hoffmann-La_Roche_logo.svg.png" alt="partner logo"
+                     class="partners__img">
+              
+            </div>
+        </div>
+		
     </section>
     <section class="section contact">
         <div id="contact" class="section__link"></div>
@@ -555,14 +351,10 @@
         <div class="contact__wrapper">
             <div class="contact__container">
                 <p class="contact__text">
-                    Już po raz siódmy zapraszamy na największą w Polsce konferencję email marketingową — Mail My Day.
-                    Czeka na Ciebie aż 360 minut dużej dawki inspirujących prelekcji i case study. Drugi dzień to 15
-                    praktycznych, certyfikowanych warsztatów do wyboru. Dzięki wiedzy naszych ekspertów dowiesz się, jak
-                    efektywnie wykorzystać email marketing, łączyć go z innymi działaniami i przekładać to wszystko na
-                    zyski. Konferencja to także świetna okazja intensywnej wymiany doświadczeń między uczestnikami oraz
-                    budowania relacji na lata.
+                    contact@cukrzyca.tech<br/>
+					+48 784 367 186
                 </p>
-                <button class="btn contact__btn">Szybki kontakt</button>
+                <button class="btn contact__btn">Zapisz się do newslettera</button>
             </div>
         </div>
         <div class="contact__ellipses">
