@@ -724,6 +724,10 @@
     top: unset;
     left: unset;
   }
+  .speaker__img {
+    max-width: 264px;
+    border-radius: 50%;
+  }
   .speaker__btn {
     position: absolute;
     top: calc(50% - 36px);
@@ -1204,6 +1208,7 @@
     height: auto;
     text-align: center;
     border-bottom: 1px solid #F2F6FC;
+    min-height: 156px;
   }
   .ticket__subtitle {
     font-family: Rubik;
@@ -1456,6 +1461,12 @@
     flex-wrap: wrap;
   }
 }
+@media only screen and (min-width: 319px) {
+  .partners__img {
+    max-width: 100%;
+    max-height: 124px;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .partners {
     margin: 0 0 139px;
@@ -1464,7 +1475,7 @@
     margin: 108px 0 92px;
   }
   .partners__container {
-    justify-content: normal;
+    justify-content: space-around;
   }
 }
 @media only screen and (min-width: 319px) {
