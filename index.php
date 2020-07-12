@@ -1,8 +1,6 @@
 <?php
 get_header();
-?>
-<main>
-    <h1>hello</h1>
-</main>
-<?php
+
+get_front_page_template();
+
 get_footer();
