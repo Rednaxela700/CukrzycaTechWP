@@ -1,5 +1,18 @@
+@font-face
+    font-family: 'Rubik', sans-serif
+    src: url("./Rubik/Rubik-Bold.ttf")
+
+@font-face
+    font-family: 'Rubik', sans-serif
+    src: url("./Rubik/Rubik-Medium.ttf")
+
+@font-face
+    font-family: 'Rubik', sans-serif
+    src: url("./Rubik/Rubik-Light.ttf")
+
 body
-    font-family: Rubik, sans-serif
+    font-family: 'Rubik', sans-serif
+
 .btn
     @include fonts('Rubik', normal, normal, 1rem, 19px)
     @include flex(center, center)
@@ -9,6 +22,7 @@ body
     color: #fff
     cursor: pointer
     text-decoration: none
+
     &:hover
         background-color: $btnActive_red
         transition: background-color .3s ease-in-out
@@ -47,6 +61,7 @@ body
 
 .section
     position: relative
+
     &__link
         @include rwd(mobile)
             @include pos(absolute, -70px)
