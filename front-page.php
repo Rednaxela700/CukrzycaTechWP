@@ -101,7 +101,7 @@
         </div>
     </section>
 	<section class="section media">
-        <div id="media" class="section__link"></div>
+        <div id="blog" class="section__link"></div>
         <h2 class="section__title">Nasz blog</h2>
         <div class="media__wrapper">
 			 <div class="media__container">
@@ -110,8 +110,10 @@
 
 <?php while ( have_posts() ) : the_post(); ?>
 			 <div class="media__item">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/2175.jpg" alt="post img"
-                         class="post__thumb">
+                 <?php
+                 if ( has_post_thumbnail() ) {
+    the_post_thumbnail('post-thumbnail', ['class' => 'post__thumb js-lazy']);
+} ?>
                     <div class="post__content">
                         <span class="post__date"><?php the_time('j F Y'); ?></span>
                         <div class="post__title">
@@ -148,7 +150,7 @@
                 <p class="speaker__name">Maciej Łysiak</p>
                 <span class="speaker__company">Nie Słodzę Vlog</span>
             </div>
-          
+
         </div>
     </section>
     <section class="section agenda">
@@ -211,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -332,7 +334,7 @@
                      class="partners__img">
 				<img src="http://cukrzyca.tech/wp-content/uploads/2020/07/d_labs_logo-1.jpg" alt="partner logo"
                      class="partners__img">
-              
+
             </div>
         </div>
 		 <div class="partners__wrapper">
@@ -340,10 +342,10 @@
             <div class="partners__container">
                 <img src="http://cukrzyca.tech/wp-content/uploads/2020/07/1200px-Hoffmann-La_Roche_logo.svg.png" alt="partner logo"
                      class="partners__img">
-              
+
             </div>
         </div>
-		
+
     </section>
     <section class="section contact">
         <div id="contact" class="section__link"></div>
