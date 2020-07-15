@@ -21,31 +21,31 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
     your browser</a> to improve your experience and security.</p>
 <![endif]-->
-<div class="page__wrapper">
+<div class="page__wrapper" id="main">
 <header class="header">
     <div class="header__wrapper">
         <div class="header__container">
             <div class="logo__container">
-                <a href="#">
-                    <img src="<?php echo get_template_directory_uri() ?>/img/logo.png" alt="conference logo"
+                <a href="#main">
+                    <img src="<?php echo get_template_directory_uri() ?>/img/logo_header.png" alt="conference logo"
                          class="logo__item">
                 </a>
                 <!--                <img src="http://via.placeholder.com/264x55" alt="conference logo">-->
             </div>
             <nav class="nav__wrapper">
                 <ul class="nav__container nav__container--js mobile--hidden">
-                    <li class="nav__item"><a href="" class="nav__link"><span class="nav__text">O konferencji</span></a>
+                    <li class="nav__item"><a href="#idea" class="nav__link"><span class="nav__text">O konferencji</span></a>
                     </li>
-                    <li class="nav__item"><a href="" class="nav__link"><span class="nav__text">Prelegenci</span></a>
+                    <li class="nav__item"><a href="#speakers" class="nav__link"><span class="nav__text">Prelegenci</span></a>
                     </li>
-                    <li class="nav__item"><a href="" class="nav__link"><span class="nav__text">Agenda</span></a></li>
-        <!--            <li class="nav__item"><a href="" class="nav__link"><span class="nav__text">Media o nas</span></a>
-                    </li> -->
-                    <li class="nav__item"><a href="" class="nav__link"><span class="nav__text">Partnerzy</span></a></li>
-					<li class="nav__item"><a href="" class="nav__link"><span class="nav__text">BLOG</span></a></li>
+                    <li class="nav__item"><a href="#agenda" class="nav__link"><span class="nav__text">Agenda</span></a></li>
+                    <li class="nav__item"><a href="#media" class="nav__link"><span class="nav__text">Media o nas</span></a>
+                    </li>
+                    <li class="nav__item"><a href="#partners" class="nav__link"><span class="nav__text">Partnerzy</span></a></li>
+                    <li class="nav__item"><a href="#blog" class="nav__link"><span class="nav__text">BLOG</span></a></li>
                     <li class="nav__item">
                         <div class="nav__btn">
-                            <a href="#checkout" class="btn js-navBtn">Bilety i rezerwacja
+                            <a href="#register" class="btn js-navBtn">Bilety i rezerwacja
                                 <span class="nav__btn--icon"><i class="fa fa-chevron-down"></i></span>
                             </a>
                         </div>
