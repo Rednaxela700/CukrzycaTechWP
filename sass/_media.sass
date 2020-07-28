@@ -44,3 +44,11 @@
         &__excerpt
             @include fonts(Rubik, normal, normal, 16px, 24px)
 
+@include rwd(tablet)
+    .media
+        &__item
+            & img
+                max-width: 100%
+                margin-bottom: 20px
+                width: auto
+                height: 300px

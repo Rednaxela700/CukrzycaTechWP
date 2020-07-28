@@ -7,7 +7,7 @@
                     <h1 class="hero__heading">cukrzyca <br> <span class="text__lightblue">tech</span> fest <br><span
                             class="text__lightblue">2021</span></h1>
                     <div class="subheading__container">
-                        <h2 class="subheading__item">Marzec 2021 <br></h2>
+                        <h2 class="subheading__item">27-28 Marca<br></h2>
                         <p class="subheading__paragraph text__lightblue">
                             Gdynia<br>
                             Pomorski Park Naukowo Technologiczny
@@ -15,7 +15,7 @@
                     </div>
                 </div>
 
-                <a class="btn hero__btn" href="404.html">Zarejestruj się terez!</a>
+                <a class="btn hero__btn" href="#register">Zarejestruj się terez!</a>
                 <div class="hero__bg">
                     <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250"
                          class="hero__ellipse hero__ellipse--sm">
@@ -125,7 +125,7 @@
 <?php endwhile; ?>
 <?php $wp_query = clone $temp_query; ?>
             </div>
-            <button class="btn__blue media__btn">Pokaż więcej</button>
+            <!--<button class="btn__blue media__btn">Pokaż więcej</button>-->
 		</div>
     </section>
     <section class="section speakers">
@@ -191,7 +191,7 @@
                         </div>
                         <div class="timetable__item">
                             <span class="timetable__hour">09:15</span>
-                            <div class="timetable__title">Nowoczesne technologie - przyszłość, teraźniejszość i przyszłość.</div>
+                            <div class="timetable__title">Nowoczesne technologie - przeszłość, teraźniejszość i przyszłość.</div>
                             <div class="timetable__subtitle">
                                 <span><a href="#">Jarosław Jerry Gilewicz</a> Cukrzyca.Tech</span>
                             </div>
@@ -285,24 +285,28 @@
                             </ul>
                         </div>
                     </div>
-                    <a href="" class="btn register__btn">Zarejestruj się</a></div>
+                    <a href="https://app.evenea.pl/event/cukrzycatechfest2020/" class="btn register__btn">Zarejestruj się</a>
+                </div>
                 <div class="register__item">
                     <div class="ticket__container">
                         <div class="ticket__header">
                             <span class="ticket__subtitle"></span>
-                            <h3 class="ticket__title">Bilet płatny</h3>
-                            <div class="ticket__price">40 zł</div>
+                            <h3 class="ticket__title">Scena główna</h3>
+                            <div class="ticket__price">50 zł</div>
                         </div>
                         <div class="ticket__body">
                             <ul class="ticket__advantages">
+								<li>Prelekcje i wykłady</li>
                                 <li>Dwa dni Expo</li>
-                                <li>2x Bon na kawę</li>
-                                <li>Lunch</li>
+                                <li>Lunch i kawa</li>
                                 <li>Strefa networking</li>
                             </ul>
+							<br/><br/><br/><br/><p style="text-align:center;">
+							<b>Już wkrótce!</b>
+							</p>
                         </div>
                     </div>
-                    <a href="" class="btn register__btn">Kup Bilet</a></div>
+                    <!--<a href="" class="btn register__btn">Kup Bilet</a>--></div>
                 <div class="register__item">
                     <div class="ticket__container">
                         <div class="ticket__header">
@@ -317,9 +321,12 @@
                                 <li>AAPS Build Party</li>
                                 <li>Loop Build Meetup</li>
                             </ul>
+							<br/><br/><br/><br/><p style="text-align:center;">
+							<b>Już wkrótce!</b>
+							</p>
                         </div>
                     </div>
-                    <a href="" class="btn register__btn">Sprawdź ofertę</a></div>
+                    <!--<a href="" class="btn register__btn">Sprawdź ofertę</a>--></div>
             </div>
 
         </div>
@@ -327,6 +334,17 @@
     <section class="section partners">
         <div id="partners" class="section__link"></div>
         <h2 class="section__title">Partnerzy</h2>
+		 <div class="partners__wrapper">
+            <span class="partners__subtitle" style="font-size:20px !important;"><b>Partner Strategiczny</b></span>
+            <div class="partners__container">
+                <img src="http://cukrzyca.tech/wp-content/uploads/2020/07/1200px-Hoffmann-La_Roche_logo.svg.png" alt="Roche"
+                     class="partners__img">
+
+            </div>
+        </div>
+		<div class="partners__wrapper">
+            <div class="partners__container"><span class="partners__subtitle"><br/><br/></span></div>
+        </div>
         <div class="partners__wrapper">
             <span class="partners__subtitle">organizatorzy</span>
             <div class="partners__container">
@@ -337,14 +355,7 @@
 
             </div>
         </div>
-		 <div class="partners__wrapper">
-            <span class="partners__subtitle">Partnerzy</span>
-            <div class="partners__container">
-                <img src="http://cukrzyca.tech/wp-content/uploads/2020/07/1200px-Hoffmann-La_Roche_logo.svg.png" alt="partner logo"
-                     class="partners__img">
 
-            </div>
-        </div>
 
     </section>
     <section class="section contact">
@@ -353,7 +364,7 @@
         <div class="contact__wrapper">
             <div class="contact__container">
                 <p class="contact__text">
-                    contact@cukrzyca.tech<br/>
+                    jerry@cukrzyca.tech<br/>
 					+48 784 367 186
                 </p>
                 <button class="btn contact__btn">Zapisz się do newslettera</button>

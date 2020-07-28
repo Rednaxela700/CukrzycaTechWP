@@ -440,8 +440,8 @@
     margin: 70px 10px 0;
     min-width: 300px;
     border-radius: 0.5em;
-    border-color: #E34137;
-    background-color: #E34137;
+    border-color: #e34137;
+    background-color: #e34137;
   }
 }
 @media only screen and (min-width: 319px) {
@@ -1165,6 +1165,14 @@
     line-height: 24px !important;
   }
 }
+@media only screen and (min-width: 767px) {
+  .media__item img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    width: auto;
+    height: 300px;
+  }
+}
 @media only screen and (min-width: 319px) {
   .register {
     background-color: #F2F6FC;
@@ -1638,6 +1646,10 @@
   .social__item {
     margin: 0 8px;
   }
+  .social__item img {
+    max-width: 32px;
+    max-height: 32px;
+  }
 }
 @media only screen and (min-width: 767px) {
   .footer__container, .footer__item {
@@ -1677,7 +1689,7 @@ body {
   flex-direction: row;
   width: auto;
   height: 56px;
-  background-color: #E34137;
+  background-color: #e34137;
   border-radius: 0.5em;
   color: #fff;
   cursor: pointer;
